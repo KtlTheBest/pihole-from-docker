@@ -9,10 +9,15 @@ Run from the terminal the commands:
 ```
 git clone https://github.com/KtlTheBest/pihole-from-docker.git
 cd pihole-from-docker
-./script.sh
+./script.sh start
 ```
 
 This command will run script which will in turn pull pihole docker image from Docker hub and start a container with specified parameters.
+
+To stop the pihole (for any reasons), run:
+```
+./script.sh stop
+```
 
 ## Any gotcha's?
 The idea is that everything will be automatic, as soon as you start the command. But at the moment it is not, so you have to do a little setup.
